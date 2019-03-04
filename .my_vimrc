@@ -1,0 +1,23 @@
+noremap le $
+noremap lb 0
+noremap j k
+noremap k j
+
+:set vb t_vb=
+:set mouse=a
+:set number
+:set autoindent
+:set tabstop=4
+:set shiftwidth=4
+
+inoremap jk <Esc>
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap { {}<Esc>i
+inoremap " ""<Esc>i
+
+let g:netrw_listsytle=3
+let g:netrw_browse_split=2
+let g:netrw_winsize=24
+let g:netrw_list_hide='.*\.swp$'
+let g:netrw_localrmdir='rm -rf'
